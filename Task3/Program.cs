@@ -53,7 +53,6 @@ for (int i = 0; i < mtrx3D.GetLength(0); i++)
         for (int k = 0; k < mtrx3D.GetLength(2); k++)
         {
             Console.Write($"{mtrx3D[i, j, k]}   |->   ({i},{j},{k}) ");
-
         }
         Console.WriteLine();
     }
